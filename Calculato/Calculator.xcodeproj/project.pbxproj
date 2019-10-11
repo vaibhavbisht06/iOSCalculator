@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		57E966962350F5E400DF32E8 /* Calculato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E966962350F5E400DF32E8 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E966992350F5E400DF32E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57E9669B2350F5E400DF32E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		57E9669E2350F5E400DF32E8 /* Calculato.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calculato.xcdatamodel; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		57E966972350F5E400DF32E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57E966962350F5E400DF32E8 /* Calculato.app */,
+				57E966962350F5E400DF32E8 /* Calculator.app */,
 				57E966AF2350F5E700DF32E8 /* CalculatoTests.xctest */,
 				57E966BA2350F5E700DF32E8 /* CalculatoUITests.xctest */,
 			);
@@ -156,7 +156,7 @@
 			);
 			name = Calculato;
 			productName = Calculato;
-			productReference = 57E966962350F5E400DF32E8 /* Calculato.app */;
+			productReference = 57E966962350F5E400DF32E8 /* Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		57E966AE2350F5E700DF32E8 /* CalculatoTests */ = {
@@ -448,7 +448,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingblocks.Calculato;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Calculator;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingblocks.Calculato;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Calculator;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
