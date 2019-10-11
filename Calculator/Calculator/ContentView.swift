@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Calculato
+//  Calculator
 //
 //  Created by Vaibhav Bisht on 11/10/19.
 //  Copyright © 2019 Coding Blocks. All rights reserved.
