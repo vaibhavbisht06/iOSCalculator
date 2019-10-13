@@ -17,13 +17,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="h3g-W1-Ukf">
-                                <rect key="frame" x="20" y="276" width="374" height="586"/>
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23456.66" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAZ-dK-G4D">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="129.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Vum-bj-AOC">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="111"/>
+                                        <rect key="frame" x="0.0" y="137.5" width="374" height="130"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1r1-2O-OJ6">
-                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="111"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="130"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -40,7 +46,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="geh-gf-xib">
-                                                <rect key="frame" x="95.5" y="0.0" width="87.5" height="111"/>
+                                                <rect key="frame" x="95.5" y="0.0" width="87.5" height="130"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -57,7 +63,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qXJ-Cd-dHd">
-                                                <rect key="frame" x="191" y="0.0" width="87.5" height="111"/>
+                                                <rect key="frame" x="191" y="0.0" width="87.5" height="130"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -74,7 +80,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZAZ-y9-uZN">
-                                                <rect key="frame" x="286.5" y="0.0" width="87.5" height="111"/>
+                                                <rect key="frame" x="286.5" y="0.0" width="87.5" height="130"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -98,10 +104,10 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="uif-NH-ae7">
-                                        <rect key="frame" x="0.0" y="119" width="374" height="110.5"/>
+                                        <rect key="frame" x="0.0" y="275.5" width="374" height="129.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xzS-2I-Ow0">
-                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="110.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="129.5"/>
                                                 <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -118,7 +124,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HzY-Mi-ic6">
-                                                <rect key="frame" x="95.5" y="0.0" width="87.5" height="110.5"/>
+                                                <rect key="frame" x="95.5" y="0.0" width="87.5" height="129.5"/>
                                                 <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -135,7 +141,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Fn-4B-noT">
-                                                <rect key="frame" x="191" y="0.0" width="87.5" height="110.5"/>
+                                                <rect key="frame" x="191" y="0.0" width="87.5" height="129.5"/>
                                                 <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -152,7 +158,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FgP-c3-GFj">
-                                                <rect key="frame" x="286.5" y="0.0" width="87.5" height="110.5"/>
+                                                <rect key="frame" x="286.5" y="0.0" width="87.5" height="129.5"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -171,10 +177,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Whg-Ax-pLz">
-                                        <rect key="frame" x="0.0" y="237.5" width="374" height="111"/>
+                                        <rect key="frame" x="0.0" y="413" width="374" height="129.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="26w-6j-Nzv">
-                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="111"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="129.5"/>
                                                 <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -191,7 +197,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ubm-Zv-shf">
-                                                <rect key="frame" x="95.5" y="0.0" width="87.5" height="111"/>
+                                                <rect key="frame" x="95.5" y="0.0" width="87.5" height="129.5"/>
                                                 <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -208,7 +214,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RaB-rs-c2j">
-                                                <rect key="frame" x="191" y="0.0" width="87.5" height="111"/>
+                                                <rect key="frame" x="191" y="0.0" width="87.5" height="129.5"/>
                                                 <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -225,7 +231,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pb5-Kq-rR5">
-                                                <rect key="frame" x="286.5" y="0.0" width="87.5" height="111"/>
+                                                <rect key="frame" x="286.5" y="0.0" width="87.5" height="129.5"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -244,10 +250,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rLF-3m-nIL">
-                                        <rect key="frame" x="0.0" y="356.5" width="374" height="110.5"/>
+                                        <rect key="frame" x="0.0" y="550.5" width="374" height="130"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IP1-PH-tbG">
-                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="110.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="130"/>
                                                 <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -264,7 +270,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vll-PJ-guQ">
-                                                <rect key="frame" x="95.5" y="0.0" width="87.5" height="110.5"/>
+                                                <rect key="frame" x="95.5" y="0.0" width="87.5" height="130"/>
                                                 <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -281,7 +287,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cjZ-F4-LgL">
-                                                <rect key="frame" x="191" y="0.0" width="87.5" height="110.5"/>
+                                                <rect key="frame" x="191" y="0.0" width="87.5" height="130"/>
                                                 <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -298,7 +304,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mEO-Tf-UyX">
-                                                <rect key="frame" x="286.5" y="0.0" width="87.5" height="110.5"/>
+                                                <rect key="frame" x="286.5" y="0.0" width="87.5" height="130"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -317,10 +323,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="rpA-8d-aOD">
-                                        <rect key="frame" x="0.0" y="475" width="374" height="111"/>
+                                        <rect key="frame" x="0.0" y="688.5" width="374" height="129.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AmI-Gp-wfA">
-                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="111"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="129.5"/>
                                                 <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -337,7 +343,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rOP-YL-Og7">
-                                                <rect key="frame" x="118.5" y="0.0" width="114.5" height="111"/>
+                                                <rect key="frame" x="118.5" y="0.0" width="114.5" height="129.5"/>
                                                 <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -354,7 +360,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tof-XX-oJF">
-                                                <rect key="frame" x="237" y="0.0" width="137" height="111"/>
+                                                <rect key="frame" x="237" y="0.0" width="137" height="129.5"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="1"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -374,24 +380,16 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hpg-qx-k18">
-                                <rect key="frame" x="20" y="44" width="374" height="212"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="hpg-qx-k18" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9rD-Ef-uMo"/>
-                            <constraint firstItem="h3g-W1-Ukf" firstAttribute="top" secondItem="hpg-qx-k18" secondAttribute="bottom" constant="20" id="FHP-RZ-loH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hpg-qx-k18" secondAttribute="trailing" constant="20" id="MDW-U6-vFA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h3g-W1-Ukf" secondAttribute="trailing" constant="20" id="QQQ-wz-DLR"/>
                             <constraint firstItem="h3g-W1-Ukf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="UFe-u8-BJ1"/>
                             <constraint firstItem="h3g-W1-Ukf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Xzw-z1-Lyo"/>
-                            <constraint firstItem="hpg-qx-k18" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bR0-hE-iD2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="h3g-W1-Ukf" secondAttribute="bottom" id="dE2-aK-I3S"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h3g-W1-Ukf" secondAttribute="trailing" constant="20" id="eKZ-Zo-T9W"/>
                             <constraint firstItem="h3g-W1-Ukf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="jUc-a0-9Ob"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hpg-qx-k18" secondAttribute="bottom" constant="606" id="pRe-xK-gBV"/>
+                            <constraint firstItem="h3g-W1-Ukf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mdG-U8-KNd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
