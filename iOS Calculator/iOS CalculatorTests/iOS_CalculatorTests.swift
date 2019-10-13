@@ -1,15 +1,15 @@
 //
-//  CalculatorTests.swift
-//  CalculatorTests
+//  iOS_CalculatorTests.swift
+//  iOS CalculatorTests
 //
-//  Created by Vaibhav Bisht on 11/10/19.
+//  Created by Vaibhav Bisht on 13/10/19.
 //  Copyright © 2019 Coding Blocks. All rights reserved.
 //
 
 import XCTest
-@testable import Calculator
+@testable import iOS_Calculator
 
-class CalculatorTests: XCTestCase {
+class iOS_CalculatorTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
